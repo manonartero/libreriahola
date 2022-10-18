@@ -1,0 +1,145 @@
+body {
+    background-color:rgb(253, 254, 255);
+    font-family:  'Montserrat', sans-serif;  
+}
+
+/* rojo:    r 161, g 41, b 28
+    celeste r193, g 212, b 225 */
+
+.titulo{ 
+    display: flex; 
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left:8rem;
+    font-size:x-large;  
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: column; 
+    background-color:rgb(193, 212, 225);
+    width: 100%;    
+    height: 7.75rem;
+}
+ 
+#logo {
+   padding-top: 1rem;
+    padding-left: 1rem;
+    width: 90%;
+    height: 6.75rem;    
+   
+}
+ 
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navegacion {
+   list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    margin-top: 6rem;
+
+}
+
+ ul.navegacion li {
+    list-style: none;
+    padding: 0.4rem;
+    width: 100%;
+    border-bottom: solid white 0.0625rem;
+
+}
+ 
+ul.navegacion li a {
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: large;
+    color: black;
+}
+ul.navegacion li:hover{
+    background:rgb(128, 164, 189);
+}
+
+.subtitulo {
+    background-color:rgb(161,41, 28); 
+    width: 90%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ h2 {
+    font-size: medium; 
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* pie */ 
+.redesSociales {
+    width: 1.875rem;
+    margin: 0.3125rem;
+}
+ 
+/*Seccion copyright*/
+.pieSegundo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 18.75rem;
+}
+ 
+.copyright {
+    margin: 0.3125rem;
+    font-size: 0.625rem;
+}
+.columna1 {
+    display: flex;
+    align-items: center;
+    padding: 0.3125rem;
+    margin: 0.625rem;
+    text-transform: uppercase;
+}
+ 
+.pieSocial {
+    display: flex;
+}
+ 
+.columna2 {
+    display: flex;
+    flex-direction: row;
+    padding: 0.3125rem;
+    margin: 0.3125rem;
+    align-items: center;
+}
+ 
+.piePrimero {
+    display: flex;
+    flex-direction: row;  
+    height: 4.875rem;
+}
+
+
+/*mes*/
+
+.paginaPrincipal {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+
+.listadoGeneros { 
+    list-style: none; 
+
+}
+
+/*
+$adminhHelper = new adminHelper();
+$adminHelper->checkLoggedIn();
